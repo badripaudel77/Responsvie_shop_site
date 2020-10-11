@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Shop</title>
+</head>
+<body>
+<div class="banner">    
+<!-- container  -->
+<div class="container">
+    <!-- header logo -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="#"><img src="images/logo.jpg" alt="logo not loaded"></a>
+        </div>
+        <nav>
+            <ul id="menuItems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <img src="images/shopping_cart.png" alt="Cart Image Not found" >
+            <img onclick="return menuToggle()" class="menu__icon" src="images/menu_icon.png" alt="menu icon not loaded">
+        
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h2>Shop With the World Largest <br />Online Shop in the Country.</h2>
+            <p>What is amazing than being the part <br /> of the largest online shop in the world ? </p>
+            <a href="#">SHOP NOW &#8594</a>
+        </div>
+        <div class="col-2">
+           <img src="images/banner.jpg" alt="banner not loaded" >
+        </div>
+    </div>
+</div>
+</div>
+<!-- featured categories -->
+<div class="featured">
+    <div class="row">
+        <div class="col-3">
+            <img src="images/item1.jpg" alt="Featured image Not found">
+        </div>
+        <div class="col-3">
+            <img src="images/item2.jpg" alt="Featured image Not found">
+        </div>
+        <div class="col-3">
+            <img src="images/item3.jpg" alt="Featured image Not found">
+        </div>
+    </div>
+</div>
+
+<!-- featured products -->
+<div class="featured__products">
+    <h2 class="fatured__products__title">Featured Items</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/combo.jpg" alt="Image Not found">
+            <h4>Computer Setup</h4>
+            <p>$<strong>1000</strong></p>
+        </div>
+        <div class="col-4">
+            <img src="images/refrigerator.jpg" alt="Image Not found">
+            <h4>Refrigerator</h4>
+            <p>$<strong>800</strong></p>
+        </div>
+        <div class="col-4">
+            <img src="images/smartwatch.jpg" alt="Image Not found">
+            <h4>Apple Smartwatch</h4>
+            <p>$<strong>500</strong></p>
+        </div>
+        <div class="col-4">
+            <img src="images/realme6.jpg" alt="Image Not found">
+            <h4>Realme6 Pro </h4>
+            <p>$<strong>300</strong></p>
+        </div>
+    </div>
+</div>
+<div>
+    <h2 class="recent__products__title">Recent Items</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/combo.jpg" alt="Image Not found">
+            <h4>Computer Setup</h4>
+            <p>$<strong>1000</strong></p>
+        </div>
+        <div class="col-4">
+            <img src="images/refrigerator.jpg" alt="Image Not found">
+            <h4>Refrigerator</h4>
+            <p>$<strong>800</strong></p>
+        </div>
+        <div class="col-4">
+            <img src="images/smartwatch.jpg" alt="Image Not found">
+            <h4>Apple Smartwatch</h4>
+            <p>$<strong>500</strong></p>
+        </div>
+        <div class="col-4">
+            <img src="images/realme6.jpg" alt="Image Not found">
+            <h4>Realme6 Pro </h4>
+            <p>$<strong>300</strong></p>
+        </div>
+        <div class="col-4">
+            <img src="images/combo.jpg" alt="Image Not found">
+            <h4>Computer Setup</h4>
+            <p>$<strong>1000</strong></p>
+        </div>
+        <div class="col-4">
+            <img src="images/refrigerator.jpg" alt="Image Not found">
+            <h4>Refrigerator</h4>
+            <p>$<strong>800</strong></p>
+        </div>
+        <div class="col-4">
+            <img src="images/smartwatch.jpg" alt="Image Not found">
+            <h4>Apple Smartwatch</h4>
+            <p>$<strong>500</strong></p>
+        </div>
+        <div class="col-4">
+            <img src="images/realme6.jpg" alt="Image Not found">
+            <h4>Realme6 Pro </h4>
+            <p>$<strong>300</strong></p>
+        </div>
+    </div>
+
+    <!-- offers -->
+    <div class="offers">
+       <div class="row">
+           <div class="col-2">
+                <img class = "offer__img" src="images/smartwatch.jpg" alt="not found">
+           </div>
+           <div class="col-2">
+               <p>Exclusively Available Online at Amazing Discount</p>
+               <h2>Apple smartwatch Pro</h2>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus repudiandae voluptate velit unde aut quod nostrum impedit, dolorum earum libero repellat eius tempora quas mollitia quaerat vero nisi vel porro?</p>
+               <a href="#">Buy Now &#8594</a>
+            </div>
+       </div>
+    </div>
+
+    <!-- testimonials -->
+    <div class="testimonials">
+        <div class="row">
+            <div class="col-3">
+                <p>Okay so this phone is a value for money. The display is good. There's a minor difference between 60hz and 90hz. Performance is good. No lags. Minor framedrops while playing games like COD at max graphics. Camera is like good. But detailing needs improvement and i think it will be fixed by updates. Battery last one day with screen on time of 6hours at 90hz. But with recent update</p>
+                <img class="testimonials__image" src="images/testimonial1.jpg" alt="not found">
+                <h2>Mark Smith</h2>
+            </div>
+            <div class="col-3">
+                <p>Okay so this phone is a value for money. The display is good. There's a minor difference between 60hz and 90hz. Performance is good. No lags. Minor framedrops while playing games like COD at max graphics. Camera is like good. But detailing needs improvement and i think it will be fixed by updates. Battery last one day with screen on time of 6hours at 90hz. But with recent update</p>
+                <img class="testimonials__image" src="images/testimonial2.jpg" alt="not found">
+                <h2>Jane Clark</h2>
+            </div>
+            <div class="col-3">
+                <p>Okay so this phone is a value for money. The display is good. There's a minor difference between 60hz and 90hz. Performance is good. No lags. Minor framedrops while playing games like COD at max graphics. Camera is like good. But detailing needs improvement and i think it will be fixed by updates. Battery last one day with screen on time of 6hours at 90hz. But with recent update</p>
+                <img class="testimonials__image" src="images/testimonial3.jpg" alt="not found">
+                <h2>Jane Doe</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <div class="footer">
+     <div class="container">
+         <div class="row">
+             <div class="footer-col-1">
+                 UseFull Links
+             </div>
+             <div class="footer-col-2">
+                 Follow Us
+             </div>
+             <div class="footer-col-3">
+                 Archives
+             </div>
+         </div>
+     </div>
+ </div>
+
+ <!-- toggle menu -- js function -->
+ <script>
+    const menuItems = document.getElementById('menuItems');
+    menuItems.style.maxHeight = '0px'; 
+
+    const menuToggle = () => {
+        if(menuItems.style.maxHeight == '0px') {
+          menuItems.style.maxHeight = '200px';  
+        }
+
+        else {
+            menuItems.style.maxHeight = '0px';  
+        }
+
+        return true;
+    }
+ </script>
+</body>
+</html>
